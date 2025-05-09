@@ -1,0 +1,17 @@
+/usuarios
+{
+    "email":"Christian Ramos Arias",
+    "name":"christian@gmail.com",
+    "password":"admin123*",
+    "phoneNumber":"32259623432",
+    "userType":"Docente"
+}
+
+/teacher
+{
+    "expertise":"ingeniero"
+    "user":{
+        "id":1
+    }
+
+}

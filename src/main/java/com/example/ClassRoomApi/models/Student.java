@@ -33,6 +33,11 @@ public class Student {
     @JsonManagedReference
     private List<Grade> grades;
 
+    @OneToOne
+    @JoinColumn(name = "fk_user", referencedColumnName = "id_user")
+    @JsonManagedReference(value = "student-user")
+    private User user;
+
     public Student() {
     }
 

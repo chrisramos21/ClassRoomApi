@@ -1,6 +1,7 @@
 package com.example.ClassRoomApi.models;
 
 import com.example.ClassRoomApi.helpers.UserType;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 
 @Entity
@@ -19,7 +20,18 @@ public class User {
     @Column(name = "phone_number", nullable = false, length = 20)
     private String phoneNumber;
     @Column(name = "user_type", nullable = false)
+    @Enumerated(EnumType.STRING)
     private UserType userType;
+
+    //Estableciendo la relación uno a uno con la tabla docente
+
+    @OneToOne(mappedBy = "user")
+    @JsonBackReference(value = "teacher-user")
+    private Teacher teacher;
+
+    @OneToOne(mappedBy = "user")
+    @JsonBackReference(value = "student-user")
+    private Student student;
 
     public User() {
     }

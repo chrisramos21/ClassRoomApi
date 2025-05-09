@@ -1,0 +1,53 @@
+[33mcommit 049de59ddf977c0b41c664b2f37539df60db86e3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Anselmo Ortega <lfkanselmo@gmail.com>
+Date:   Fri May 2 09:14:47 2025 -0500
+
+    feat se crea la conexión real con la Base de datos Xampp
+
+[33mcommit c03e4f2528cb111c3b361a020ade635742f459a1[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Anselmo Ortega <lfkanselmo@gmail.com>
+Date:   Fri Apr 25 09:51:23 2025 -0500
+
+    feat se termina API casi
+
+[33mcommit 6c49c6c37aecb5871d6a6fe8557e9dd6ad44f204[m
+Author: Anselmo Ortega <lfkanselmo@gmail.com>
+Date:   Fri Apr 11 09:26:27 2025 -0500
+
+    feat se completa el servicio de el docente
+
+[33mcommit c9e2dd427ee4e512a56abfb64802773773fd0ca9[m
+Author: Anselmo Ortega <lfkanselmo@gmail.com>
+Date:   Fri Apr 4 10:08:07 2025 -0500
+
+    feat se crea servicio update
+
+[33mcommit 21b5ddc4f0539d8468e0532abc66073e17b31ac0[m
+Author: Anselmo Ortega <lfkanselmo@gmail.com>
+Date:   Fri Mar 28 10:23:51 2025 -0500
+
+    feat se crean los packages services y repositories
+
+[33mcommit 3e7a60a073b7f14aab7c807472db6f52fde43d6a[m
+Author: Anselmo Ortega <lfkanselmo@gmail.com>
+Date:   Fri Mar 28 09:30:39 2025 -0500
+
+    feat se descarga en el CESDE
+
+[33mcommit 2165f51ae65191213ff922903805820152a55018[m
+Author: Christian Ramos <christianramosarias2@gmail.com>
+Date:   Fri Mar 28 09:10:53 2025 -0500
+
+    feat se crea @Repository en ITeacherRepository
+
+[33mcommit 0103169e23f53a33ba76d39ba3da930629459918[m
+Author: Christian Ramos <christianramosarias2@gmail.com>
+Date:   Fri Mar 28 09:03:42 2025 -0500
+
+    feat se crea algunos repositorios
+
+[33mcommit 0f8e042291eba61caa1fd1e966ac821d0c481890[m
+Author: Christian Ramos <christianramosarias2@gmail.com>
+Date:   Mon Mar 24 17:06:04 2025 -0500
+
+    feat se crea las clases y sus relaciones

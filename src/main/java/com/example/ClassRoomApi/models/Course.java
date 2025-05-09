@@ -18,7 +18,7 @@ public class Course {
 
     @ManyToOne
     @JoinColumn(name = "fk_teacher", referencedColumnName = "id_teacher")
-    @JsonBackReference
+    @JsonBackReference(value = "teacher-course")
     private Teacher teacher;
 
     @OneToMany(mappedBy = "course")
