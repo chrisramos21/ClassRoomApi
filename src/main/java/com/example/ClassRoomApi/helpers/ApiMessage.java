@@ -2,7 +2,9 @@ package com.example.ClassRoomApi.helpers;
 
 public enum ApiMessage {
 
-    TEACHER_NOT_FOUND("El docente que buscas no se encuentra en BD");
+    TEACHER_NOT_FOUND("El docente que buscas no se encuentra en BD"),
+
+    COURSE_NOT_FOUND("El curso que buscas no se encuentra en BD");
 
     private String text;
 
