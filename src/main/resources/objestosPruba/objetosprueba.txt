@@ -1,90 +1,218 @@
 /users
-{
-    "name":"Christian Ramos Arias",
-    "email":"christian@gmail.com",
-    "password":"admin123*",
-    "phoneNumber":"32259623432",
-    "userType":"Docente"
-}
-{
-    "name":"Emmanue Ramos Arias",
-    "email":"emanuel@gmail.com",
-    "password":"admin124*",
-    "phoneNumber":"32259623432",
-    "userType":"Estudiante"
-}
+[
+  {
+    "name": "Christian Ramos Arias",
+    "email": "christian@gmail.com",
+    "password": "chris123*",
+    "phoneNumber": "32259623432",
+    "userType": "Estudiante"
+  },
+  {
+    "name": "Joan Sebastian Bach",
+    "email": "jsb@gmail.com",
+    "password": "joan123*",
+    "phoneNumber": "322593455",
+    "userType": "Docente"
+  },
+  {
+    "name": "Isaac Newton",
+    "email": "emanuel@gmail.com",
+    "password": "isaac123*",
+    "phoneNumber": "32259133232",
+    "userType": "Docente"
+  },
+  {
+    "name": "Papa León XIV",
+    "email": "pontifise@gmail.com",
+    "password": "papa123*",
+    "phoneNumber": "322323232323",
+    "userType": "Estudiante"
+  },
+  {
+    "name": "Amadeus Mozart",
+    "email": "am@gmail.com",
+    "password": "mozart123*",
+    "phoneNumber": "32232334234",
+    "userType": "Docente"
+  }
+]
 
 
 /teachers
-{
-    "expertise":"ingeniero",
-    "user":{
-        "id":"1"
-    }
 
-}
+[
+    {
+        "expertise":"Físico natural",
+        "user":{
+            "id":"3"
+        }
+    },
+    {
+        "expertise":"Músico",
+        "user":{
+            "id":"2"
+        }
+    },
+    {
+        "expertise":"Músico",
+        "user":{
+            "id":"5"
+        }
+    }
+]
+
 
 /subjects
-{
-    "name":"Matemáticas",
-    "course":{
-        "id":"1"
+[
+    {
+        "name":"Cálculo en varias variables",
+        "course":{
+            "id":"1"
+        }
+    },
+    {
+        "name":"Cálculo en varias variables",
+        "course":{
+            "id":"2"
+        }
+    },
+    {
+        "name":"Cálculo Integral",
+        "course":{
+            "id":"1"
+        }
+    },
+    {
+        "name":"Cálculo Integral",
+        "course":{
+            "id":"2"
+        }
+    },
+    {
+        "name":"Música 1",
+        "course":{
+            "id":"1"
+        }
+    },
+    {
+        "name":"Música 2",
+        "course":{
+            "id":"3"
+        }
     }
-
-}
+]
 
 /student
-{
-    "gradeLevel": 2,
-    "birthDate":"2000-01-21",
-    "address":"calle 13",
-    "user":{
-        "id":"2"
-     }
-}
+[
+  {
+      "gradeLevel": 1,
+      "birthDate":"2000-01-21",
+      "address":"calle 13",
+      "user":{
+          "id":"1"
+       }
+  },
+  {
+      "gradeLevel": 2,
+      "birthDate":"1956-02-27",
+      "address":"calle 14",
+      "user":{
+          "id":"4"
+       }
+  }
+]
+
 /inscriptions
-{
-    "inscriptionDate":"2024-01-23",
-    "course":{
-        "id": "1"
+[
+  {
+    "inscriptionDate": "2024-01-23",
+    "course": {
+      "id": "1"
     },
-    "student":{
-        "id": "1"
+    "student": {
+      "id": "1"
     }
-}
+  },
+  {
+    "inscriptionDate": "2024-01-24",
+    "course": {
+      "id": "2"
+    },
+    "student": {
+      "id": "2"
+    }
+  }
+]
 
 /grades
-{
-    "grade":"1.0",
-    "testDate":"2025-05-25",
-    "course":{
-        "id": "1"
-    },
-    "subject":{
-        "id": "1"
-    }
-}
+
+[
+  {
+    "grade": "5.0",
+    "testDate": "2025-05-25",
+    "course": { "id": "1" },
+    "subject": { "id": "1" }
+  },
+  {
+    "grade": "4.0",
+    "testDate": "2025-05-25",
+    "course": { "id": "2" },
+    "subject": { "id": "2" }
+  },
+  {
+    "grade": "3.5",
+    "testDate": "2025-05-25",
+    "course": { "id": "1" },
+    "subject": { "id": "2" }
+  }
+]
 
 /courses
-{
-    "name":"introducción",
-    "teacher":{
-        "id": "1"
+
+[
+  {
+    "name": "Nivel 1",
+    "teacher": {
+      "id": 1
     }
-}
+  },
+  {
+    "name": "Nivel 2",
+    "teacher": {
+      "id": 2
+    }
+  },
+  {
+    "name": "Nivel 3",
+    "teacher": {
+      "id": 3
+    }
+  }
+]
 
 /Assistance
-{
-    "date":"2025-06-23",
-    "status":"FALTO",
-    "course":{
-        "id": "1"
+[
+  {
+    "date": "2025-06-23",
+    "status": "ASISTIO",
+    "course": {
+      "id": "1"
     },
-    "student":{
-        "id": "1"
+    "student": {
+      "id": "1"
     }
-}
-
+  },
+  {
+    "date": "2025-06-23",
+    "status": "FALTO",
+    "course": {
+      "id": "1"
+    },
+    "student": {
+      "id": "2"
+    }
+  }
+]
 
 
 
