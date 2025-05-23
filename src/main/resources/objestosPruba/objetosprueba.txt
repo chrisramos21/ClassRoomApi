@@ -1,4 +1,4 @@
-/usuarios
+/users
 {
     "email":"Christian Ramos Arias",
     "name":"christian@gmail.com",
@@ -7,11 +7,76 @@
     "userType":"Docente"
 }
 
-/teacher
+/teachers
 {
-    "expertise":"ingeniero"
+    "expertise":"ingeniero",
     "user":{
         "id":1
     }
 
 }
+
+/subjects
+{
+    "name":"Matemáticas",
+    "course":{
+        "id":1
+    }
+
+}
+
+/student
+{
+    "gradeLevel": 2,
+    "birthDate":"21/01/2000",
+    "address":"calle 13",
+    "user":{
+        "id":1
+     }
+}
+/inscriptions
+{
+    "inscriptionDate":"31/12/2024",
+    "course":{
+        "id": 1
+    },
+    "student":{
+        "id": 1
+    }
+}
+
+/grades
+{
+    "grade":"1.0",
+    "testDate":"22/02/2025",
+    "course":{
+        "id": 1
+    },
+    "student":{
+        "id": 1
+    }
+}
+
+/courses
+{
+    "name":"introducción",
+    "teacher":{
+        "id": 1
+    }
+}
+
+/Assistance
+{
+    "date":"23/02/2025",
+    "status":"FALTO",
+    "course":{
+        "id": 1
+    },
+    "student":{
+        "id": 1
+    }
+}
+
+
+
+
