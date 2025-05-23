@@ -20,12 +20,12 @@ public class Grade {
 
     @ManyToOne
     @JoinColumn(name = "fk_subject", referencedColumnName = "id_subject")
-    @JsonBackReference
+    @JsonBackReference(value = "subject-grade")
     private Subject subject;
 
     @ManyToOne
     @JoinColumn(name = "fk_student", referencedColumnName = "id_student")
-    @JsonBackReference
+    @JsonBackReference(value = "student-grade")
     private Student student;
 
     public Grade() {
