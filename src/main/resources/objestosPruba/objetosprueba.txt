@@ -6,6 +6,14 @@
     "phoneNumber":"32259623432",
     "userType":"Docente"
 }
+{
+    "name":"Emmanue Ramos Arias",
+    "email":"emanuel@gmail.com",
+    "password":"admin124*",
+    "phoneNumber":"32259623432",
+    "userType":"Estudiante"
+}
+
 
 /teachers
 {
@@ -28,15 +36,15 @@
 /student
 {
     "gradeLevel": 2,
-    "birthDate":"21/01/2000",
+    "birthDate":"2000-01-21",
     "address":"calle 13",
     "user":{
-        "id":"1"
+        "id":"2"
      }
 }
 /inscriptions
 {
-    "inscriptionDate":"31/12/2024",
+    "inscriptionDate":"2024-01-23",
     "course":{
         "id": "1"
     },
@@ -48,11 +56,11 @@
 /grades
 {
     "grade":"1.0",
-    "testDate":"22/02/2025",
+    "testDate":"2025-05-25",
     "course":{
         "id": "1"
     },
-    "student":{
+    "subject":{
         "id": "1"
     }
 }
@@ -67,7 +75,7 @@
 
 /Assistance
 {
-    "date":"23/02/2025",
+    "date":"2025-06-23",
     "status":"FALTO",
     "course":{
         "id": "1"
