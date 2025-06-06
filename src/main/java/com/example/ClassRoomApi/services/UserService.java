@@ -1,6 +1,8 @@
 package com.example.ClassRoomApi.services;
 
+import com.example.ClassRoomApi.DTO.DTOUser;
 import com.example.ClassRoomApi.helpers.ApiMessage;
+import com.example.ClassRoomApi.maps.IUserMap;
 import com.example.ClassRoomApi.models.User;
 import com.example.ClassRoomApi.repositories.IUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,10 +16,15 @@ public class UserService {
     @Autowired //inyección de dependecias
     IUserRepository repository;
 
+    //Inyectar el mapa
+
+    @Autowired
+    IUserMap IUserMap;
+
     //Guardar
-    public User saveUser(User dataUser)throws  Exception{
+    public DTOUser saveUser(User dataUser)throws  Exception{
         try{
-            return this.repository.save(dataUser);
+            return this.IUserMap.transformModelDTO(this.repository.save(dataUser));
         }catch (Exception mistake){
             throw new Exception(mistake.getMessage());
         }
